@@ -14,7 +14,7 @@ export default {
 
     extend: {
       colors: {
-        primaryBg: '#475569',
+        primaryBg: '#627085',
         fontColor: 'white'
       },
     },
