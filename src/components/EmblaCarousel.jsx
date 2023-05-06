@@ -1,9 +1,9 @@
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import Bricks from '../assets/imgs/bricks.jpg'
-import Iron from '../assets/imgs/ironbars.jpg'
-import Ceramic from '../assets/imgs/ceramicos.jpg'
+import Bricks from '../assets/imgs/carrusel/bricks.jpg'
+import Iron from '../assets/imgs/carrusel/ironbars.jpg'
+import Ceramic from '../assets/imgs/carrusel/ceramicos.jpg'
 
 export const EmblaCarousel = () => {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])

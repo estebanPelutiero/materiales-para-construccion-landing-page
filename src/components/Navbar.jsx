@@ -12,7 +12,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='fixed w-full h-auto z-50'>
+    <div className='fixed w-full h-auto z-50 bg-white'>
 
         {/* desktop navbar */}
 
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-primaryBg hover:bg-orange-400 ease-in-out duration-200'> <a title='Contacto' href="#">Contacto</a></li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
-                    {nav ? <AiOutlineClose size={20} color={'white'} /> : <AiOutlineMenu size={20} color={'white'} />}
+                    {nav ? <AiOutlineClose size={20} color={'black'} /> : <AiOutlineMenu size={20} color={'black'} />}
                 </div>
             </nav>    
         </div>
