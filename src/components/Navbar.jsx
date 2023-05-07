@@ -23,7 +23,7 @@ const Navbar = () => {
                 </a>
             </div>
             <nav className='flex flex-row'>
-                <ul className='hidden md:flex bg-gray-400 px-14 py-5 rounded'>
+                <ul className='hidden md:flex'>
                     <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-primaryBg hover:bg-orange-400 ease-in-out duration-200'> <a title='Home' href="#">Home</a></li>
                     <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-primaryBg hover:bg-orange-400 ease-in-out duration-200'> <a title='Productos' href="#">Productos</a></li>
                     <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-primaryBg hover:bg-orange-400 ease-in-out duration-200'> <a title='Nosotros' href="#">Nosotros</a> </li>
