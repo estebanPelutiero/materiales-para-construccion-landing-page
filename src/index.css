@@ -3,14 +3,16 @@
 @tailwind utilities;
 
 body {
-  background-color: #f4f1ee;
+  background-color: #FFFFFF;
 }
 
 .embla {
   overflow: hidden;
 }
+
 .embla__container {
   display: flex;
+  margin-top: 118px; 
 }
 
 .embla__slide {
@@ -18,8 +20,3 @@ body {
   min-width: 0;
 }
 
-.embla__slide img {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-}
