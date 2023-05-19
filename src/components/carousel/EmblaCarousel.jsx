@@ -14,15 +14,15 @@ export const EmblaCarousel = () => {
 
       <div className="embla__container">
         <div className="embla__slide">
-          <img className='bg-auto' src={Bricks} alt="/" />
+          <img className='object-contain' src={Bricks} alt="/" />
         </div>
 
         <div className="embla__slide">
-          <img className='bg-auto' src={Ceramic} alt="/" />
+          <img className='object-contain' src={Ceramic} alt="/" />
         </div>
 
         <div className="embla__slide">
-          <img className='bg-auto' src={Iron} alt="/" />
+          <img className='object-contain' src={Iron} alt="/" />
         </div>
 
       </div>

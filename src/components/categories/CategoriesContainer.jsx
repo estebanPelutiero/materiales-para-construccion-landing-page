@@ -13,7 +13,7 @@ const CategoriesContainer = () => {
       </div>
 
       <div className="flex justify-center w-[90vw] h-fit mx-auto py-10">
-        <div className="grid md:grid-cols-3 grid-flow-row grid-cols-1 justify-center gap-8 mb-10">
+        <div className="grid md:grid-cols-3 grid-flow-row grid-cols-1 justify-center gap-14 mb-10">
           {categories.map((category) => {
         
               return (

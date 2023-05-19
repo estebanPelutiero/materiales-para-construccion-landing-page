@@ -26,7 +26,7 @@ const Navbar = () => {
                 <ul className='hidden md:flex'>
                     <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Home' href="#">Home</a></li>
                     <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Productos' href="#">Productos</a></li>
-                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Nosotros' href="#">Nosotros</a> </li>
+                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Nosotros' href="#">Sucursales</a> </li>
                     <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Contacto' href="#">Contacto</a></li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </li>
 
                     <li className='px-8 py-4 border-b border-gray-400 uppercase font-cabin font-medium text-fontColor hover:bg-orange-400 ease-in-out duration-200'>
-                         <a title='Nosotros' href="#">Nosotros</a>
+                         <a title='Nosotros' href="#">Sucursales</a>
                      </li>
 
                     <li className='px-8 py-4 border-b border-gray-400 uppercase font-cabin font-medium text-fontColor hover:bg-orange-400 ease-in-out duration-200'>

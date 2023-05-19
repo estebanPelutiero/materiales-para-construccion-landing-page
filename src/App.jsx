@@ -3,7 +3,8 @@ import Navbar from './components/navbar/Navbar';
 import EmblaCarousel from './components/carousel/EmblaCarousel';
 import WhatsappBtn from './components/whatsappBtn/WhatsappBtn';
 import CategoriesContainer from './components/categories/CategoriesContainer';
-import Locations from './components/locations/Locations';
+import Location from './components/locations/Location';
+import Contact from './components/form/Contact';
 // import Bolsas from './components/products/Bolsas';
 // import Ladrillos from './components/products/Ladrillos';
 
@@ -16,7 +17,8 @@ function App() {
       <EmblaCarousel />
       <WhatsappBtn />
       <CategoriesContainer />
-      <Locations />
+      <Location />
+      <Contact />
       {/* <Bolsas /> */}
       {/* <Ladrillos /> */}
     </>

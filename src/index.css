@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #FFFFFF;
 }
@@ -18,5 +24,16 @@ body {
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+  height: calc(100vh - 118px);
 }
+
+.map {
+  width: 80%;
+  height: 350px;
+}
+
+.noResize {
+  resize: none;
+}
+
 
