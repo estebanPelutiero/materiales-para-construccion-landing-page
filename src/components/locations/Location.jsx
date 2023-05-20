@@ -4,13 +4,13 @@ const Location = () => {
 
   return (
 
-    <div className='w-full h-fit py-3 mx-auto'>
+    <div id='sucursales' className='w-full h-fit py-3 mx-auto'>
 
         <div className="flex flex-col justify-center items-center w-[100%] h-[100px] px-16">
-          <h1 className='font-cabin lg:text-3xl text-xl text-center font-semibold lg:font-normal bg-orange-300 px-10 py-2 my-2 rounded'>Podés visitar cualquiera de nuestras 2 sucursales!</h1>
+          <h1 className='font-cabin lg:text-3xl text-xl text-center font-semibold lg:font-normal bg-orange-300 px-10 py-2 rounded'>Podés visitar cualquiera de nuestras 2 sucursales!</h1>
         </div>
 
-        <div className='flex flex-col lg:flex-row justify-evenly items-center w-full mt-10'>
+        <div className='flex flex-col lg:flex-row justify-evenly items-center w-full'>
 
           {/* map 1 */}
 

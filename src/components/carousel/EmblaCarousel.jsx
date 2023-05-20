@@ -10,7 +10,7 @@ export const EmblaCarousel = () => {
 
   return (
   
-    <div className="w-full embla" ref={emblaRef}>
+    <div id='home' className="w-full embla" ref={emblaRef}>
 
       <div className="embla__container">
         <div className="embla__slide">

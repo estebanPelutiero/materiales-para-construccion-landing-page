@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import Logo from '../../assets/logos/logoHjr.png';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -12,7 +13,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='fixed w-full md:w-[1350px] h-auto z-50 bg-white shadow-lg'>
+    <div className='fixed w-full h-auto z-50 bg-white shadow-lg'>
 
         {/* desktop navbar */}
 
@@ -24,10 +25,10 @@ const Navbar = () => {
             </div>
             <nav className='flex flex-row'>
                 <ul className='hidden md:flex'>
-                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Home' href="#">Home</a></li>
-                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Productos' href="#">Productos</a></li>
-                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Nosotros' href="#">Sucursales</a> </li>
-                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <a title='Contacto' href="#">Contacto</a></li>
+                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <Link className='cursor-pointer' title='Home' to='home' smooth={true} spy={true} >Home</Link></li>
+                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <Link className='cursor-pointer' title='Productos' to='productos' smooth={true} spy={true} >Productos</Link></li>
+                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <Link className='cursor-pointer' title='Sucursales' to='sucursales' smooth={true} spy={true} >Sucursales</Link> </li>
+                    <li className='px-4 py-2 mx-4 rounded uppercase font-cabin font-medium text-sm text-fontColor bg-slate-400 hover:bg-orange-400 ease-in-out duration-200'> <Link className='cursor-pointer' title='Contacto' to='contacto' smooth={true} spy={true} >Contacto</Link></li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
                     {nav ? <AiOutlineClose size={20} color={'black'} /> : <AiOutlineMenu size={20} color={'black'} />}
@@ -47,19 +48,19 @@ const Navbar = () => {
                     </li>
 
                     <li className='px-8 py-4 border-b border-gray-400 border-t uppercase font-cabin font-medium text-fontColor hover:bg-orange-400 ease-in-out duration-200'>
-                         <a title='Home' href="#">Home</a>
+                        <Link className='cursor-pointer' title='Home' to='home' smooth={true} spy={true} >Home</Link>
                     </li>
 
                     <li className='px-8 py-4 border-b border-gray-400 uppercase font-cabin font-medium text-fontColor hover:bg-orange-400 ease-in-out duration-200'>
-                         <a title='Productos' href="#">Productos</a>
+                        <Link className='cursor-pointer' title='Productos' to='productos' smooth={true} spy={true} >Productos</Link>
                     </li>
 
                     <li className='px-8 py-4 border-b border-gray-400 uppercase font-cabin font-medium text-fontColor hover:bg-orange-400 ease-in-out duration-200'>
-                         <a title='Nosotros' href="#">Sucursales</a>
-                     </li>
+                        <Link className='cursor-pointer' title='Sucursales' to='sucursales' smooth={true} spy={true} >Sucursales</Link>
+                    </li>
 
                     <li className='px-8 py-4 border-b border-gray-400 uppercase font-cabin font-medium text-fontColor hover:bg-orange-400 ease-in-out duration-200'>
-                         <a title='Contacto' href="#">Contacto</a>
+                        <Link className='cursor-pointer' title='Contacto' to='contacto' smooth={true} spy={true} >Contacto</Link>
                     </li>
                 </ul>
             </nav>

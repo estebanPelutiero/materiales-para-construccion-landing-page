@@ -6,19 +6,19 @@ const Contact = () => {
 
     // wrapper
 
-    <div className="w-full lg:w-[1340px] mx-auto">
+    <div id="contacto" className="w-full mx-auto">
+
+      <div className="flex flex-col lg:flex-row items-center w-[95%] mx-auto ">
 
       {/* contact numbers */}
 
-      <div className="flex flex-col lg:flex-row items-center lg:justify-evenly w-[90%] mx-auto ">
+        <div className="flex flex-col justify-center items-center w-[80%] lg:w-[50%]">
 
-        <div className="flex flex-col justify-center items-center w-full lg:w-[50%]">
-
-          <h1 className="font-cabin lg:text-3xl text-2xl bg-orange-300 px-3 py-2 mb-4 rounded">Comunicate por Whatsapp</h1>
+          <h1 className="font-cabin lg:text-3xl text-2xl bg-orange-300 px-3 py-2 mb-4 rounded lg:w-[70%] w-full text-center">Comunicate por Whatsapp</h1>
 
           {/* walter */}
 
-          <div className="lg:w-[60%] w-full font-cabin py-4">
+          <div className="lg:w-[70%] w-full font-cabin py-4">
             <h2 className="px-5 py-1 bg-slate-300 rounded my-2 text-2xl w-full">Logística</h2>
 
             <div className="flex items-center px-3 py-1 bg-slate-200 rounded text-lg w-fit">
@@ -31,7 +31,7 @@ const Contact = () => {
 
           {/* fernando  */}
 
-          <div className="lg:w-[60%] w-full font-cabin py-4">
+          <div className="lg:w-[70%] w-full font-cabin py-4">
             <h2 className="px-5 py-1 bg-slate-300 rounded my-2 text-2xl w-full">Ventas 1</h2>
 
             <div className="flex items-center px-3 py-1 bg-slate-200 rounded text-lg w-fit">
@@ -44,7 +44,7 @@ const Contact = () => {
 
           {/* raul */}
 
-          <div className="lg:w-[60%] w-full font-cabin py-4">
+          <div className="lg:w-[70%] w-full font-cabin py-4">
             <h2 className="px-5 py-1 bg-slate-300 rounded my-2 text-2xl w-full">Ventas 2</h2>
 
             <div className="flex items-center px-3 py-1 bg-slate-200 rounded text-lg w-fit">
@@ -59,16 +59,16 @@ const Contact = () => {
 
         {/* form */}
 
-        <div className="flex justify-center lg:w-[50%] w-[90%] lg:mt-5 mt-10 mb-5">
-          <form className="flex w-full flex-col justify-between" action="">
+        <div className="flex justify-center lg:w-[50%] w-[80%] lg:mt-5 mt-10 mb-5">
+          <form className="flex flex-col justify-between items-center w-full" action="">
 
-            <h1 className="font-cabin lg:text-3xl text-2xl text-center bg-orange-300 px-3 py-2 mb-4 rounded w-[100%] lg:w-[90%]">O completa este formulario</h1>
+            <h1 className="font-cabin lg:text-3xl text-2xl text-center bg-orange-300 px-3 py-2 mb-4 rounded lg:w-[70%] w-full">O completa este formulario</h1>
 
-            <input className="w-[100%] lg:w-[90%] my-4 py-2 px-1 rounded border" type="text" placeholder="Nombre completo" name="name"/>
-            <input className="w-[100%] lg:w-[90%] my-4 py-2 px-1 rounded border" type="text" placeholder="Teléfono" name="celNumber"/>
-            <input className="w-[100%] lg:w-[90%] my-4 py-2 px-1 rounded border" type="text" placeholder="E-mail" name="email"/>
-            <textarea className="noResize w-[100%] lg:w-[90%] my-4 py-2 px-1 rounded border" placeholder="Tu mensaje" name="mesage"></textarea>
-            <button className="lg:w-[90%] w-[50%] my-1 py-1 border rounded bg-slate-400 text-white font-semibold hover:bg-slate-500/90 ease-in-out duration-100">Enviar</button>
+            <input className="w-[100%] lg:w-[70%] my-4 py-2 px-1 rounded border" type="text" placeholder="Nombre completo" name="name"/>
+            <input className="w-[100%] lg:w-[70%] my-4 py-2 px-1 rounded border" type="text" placeholder="Teléfono" name="celNumber"/>
+            <input className="w-[100%] lg:w-[70%] my-4 py-2 px-1 rounded border" type="text" placeholder="E-mail" name="email"/>
+            <textarea className="noResize w-[100%] lg:w-[70%] my-4 py-2 px-1 rounded border" placeholder="Tu mensaje" name="mesage"></textarea>
+            <button className="lg:w-[70%] w-[50%] my-1 py-1 border rounded bg-slate-400 text-white font-semibold hover:bg-slate-500/90 ease-in-out duration-100">Enviar</button>
           </form>
         </div>  
 
