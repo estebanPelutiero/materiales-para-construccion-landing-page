@@ -30,15 +30,19 @@ body {
 
 .map {
   width: 80%;
-  height: 450px;
+  height: 400px;
 }
 
 .noResize {
   resize: none;
 }
 
-
 .gradient {
   background: rgb(238,146,80);
   background: linear-gradient(90deg, rgba(238,146,80,1) 13%, rgba(252,176,69,1) 44%);
 }
+
+.activeLink {
+  text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.822);
+}
+

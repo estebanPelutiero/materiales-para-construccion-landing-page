@@ -4,7 +4,7 @@ const Location = () => {
 
   return (
 
-    <div id='sucursales' className='w-full h-fit py-6 mx-auto my-20'>
+    <div id='sucursales' className='w-full h-fit py-6 mx-auto mt-5 mb-20'>
 
         <div className="flex flex-col justify-center items-center w-[100%] h-[100px] px-16 mt-[8rem] mb-4">
           <h1 className=' gradient font-cabin lg:text-3xl text-xl text-center font-semibold lg:font-normal bg-orange-300 px-10 py-2 rounded'>Podés visitar cualquiera de nuestras 2 sucursales!</h1>

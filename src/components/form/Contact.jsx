@@ -6,7 +6,7 @@ const Contact = () => {
 
     // wrapper
 
-    <div id="contacto" className="w-full mx-auto h-[70vh] mt-[8rem] ">
+    <div id="contacto" className="w-full mx-auto h-fit mt-[8rem] ">
 
       <div className="flex justify-center mb-10">
         <div className="gradient font-cabin lg:text-3xl text-2xl bg-orange-300 px-10 py-2 mb-10 rounded w-[40%] text-center">
@@ -14,11 +14,11 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row items-center w-[95%] mx-auto ">
+      <div className="flex flex-col lg:flex-row items-baseline w-[95%] mx-auto">
 
       {/* contact numbers */}
 
-        <div className="flex flex-col justify-center items-center w-[80%] lg:w-[50%]">
+        <div className="flex flex-col justify-center items-center w-[80%] lg:w-[50%] mb-8">
 
           <h1 className="font-cabin lg:text-3xl text-2xl bg-orange-300/90 px-3 py-2 mb-4 rounded lg:w-[70%] w-full text-center">Whatsapp</h1>
 
@@ -70,10 +70,10 @@ const Contact = () => {
 
             <h1 className="font-cabin lg:text-3xl text-2xl text-center bg-orange-300/90 px-3 py-2 mb-4 rounded lg:w-[70%] w-full">O completa este formulario</h1>
 
-            <input className="w-[100%] lg:w-[70%] my-4 py-2 px-1 rounded border" type="text" placeholder="Nombre completo" name="name"/>
-            <input className="w-[100%] lg:w-[70%] my-4 py-2 px-1 rounded border" type="text" placeholder="Teléfono" name="celNumber"/>
-            <input className="w-[100%] lg:w-[70%] my-4 py-2 px-1 rounded border" type="text" placeholder="E-mail" name="email"/>
-            <textarea className="noResize w-[100%] lg:w-[70%] my-4 py-3 px-1 rounded border" placeholder="Tu mensaje" name="mesage"></textarea>
+            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border" type="text" placeholder="Nombre completo" name="name"/>
+            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border" type="text" placeholder="Teléfono" name="celNumber"/>
+            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border" type="text" placeholder="E-mail" name="email"/>
+            <textarea className="noResize w-[100%] lg:w-[70%] my-3 py-3 px-1 rounded border" placeholder="Tu mensaje" name="mesage"></textarea>
             <div className="flex justify-start lg:justify-center w-full">
               <button className="lg:w-[70%] w-[35%] my-1 py-2 border rounded bg-slate-400 text-white font-semibold hover:bg-slate-500/90 ease-in-out duration-100">Enviar</button>
             </div>
