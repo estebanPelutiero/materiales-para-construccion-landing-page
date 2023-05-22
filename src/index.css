@@ -27,12 +27,18 @@ body {
   height: calc(100vh - 118px);
 }
 
+
 .map {
   width: 80%;
-  height: 350px;
+  height: 450px;
 }
 
 .noResize {
   resize: none;
 }
 
+
+.gradient {
+  background: rgb(238,146,80);
+  background: linear-gradient(90deg, rgba(238,146,80,1) 13%, rgba(252,176,69,1) 44%);
+}
