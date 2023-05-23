@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,13 +14,15 @@ body {
   background-color: #FFFFFF;
 }
 
+/* carrusel */
+
 .embla {
   overflow: hidden;
 }
 
 .embla__container {
   display: flex;
-  margin-top: 118px; 
+  margin-top: 118px;
 }
 
 .embla__slide {
@@ -27,6 +31,13 @@ body {
   height: calc(100vh - 118px);
 }
 
+@media only screen and (max-width: 600px) {
+  .embla__slide {
+    height: auto;
+  }
+}
+
+/* ubicaciones */
 
 .map {
   width: 80%;
@@ -37,12 +48,16 @@ body {
   resize: none;
 }
 
+/* gradiente para h1 */
+
 .gradient {
   background: rgb(238,146,80);
   background: linear-gradient(90deg, rgba(238,146,80,1) 13%, rgba(252,176,69,1) 44%);
 }
 
+/* clase para cuando un link esta activo */
+
 .activeLink {
-  text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.822);
+  text-shadow: 1px 1.5px 1px slategrey;
 }
 

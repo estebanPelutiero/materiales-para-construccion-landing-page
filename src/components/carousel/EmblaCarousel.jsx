@@ -10,19 +10,19 @@ export const EmblaCarousel = () => {
 
   return (
   
-    <div id='home' className="w-full embla" ref={emblaRef}>
+    <div id='home' className="w-full embla mb-8" ref={emblaRef}>
 
       <div className="embla__container">
         <div className="embla__slide">
-          <img className='object-contain' src={Bricks} alt="/" />
+          <img className='' src={Bricks} alt="/" />
         </div>
 
         <div className="embla__slide">
-          <img className='object-contain' src={Ceramic} alt="/" />
+          <img className='' src={Ceramic} alt="/" />
         </div>
 
         <div className="embla__slide">
-          <img className='object-contain' src={Iron} alt="/" />
+          <img className='' src={Iron} alt="/" />
         </div>
 
       </div>
