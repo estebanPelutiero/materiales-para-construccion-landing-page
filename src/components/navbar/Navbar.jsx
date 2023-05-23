@@ -38,7 +38,7 @@ const Navbar = () => {
 
         {/* mobile navbar */}
 
-        <div className={nav ? 'fixed left-0 top-0 w-[40%] h-screen ease-in-out duration-500 bg-primaryBg' : 'fixed left-[-100%] h-screen bg-primaryBg'}>
+        <div className={nav ? 'fixed left-0 top-0 w-[51%] h-screen ease-in-out duration-500 bg-primaryBg' : 'fixed left-[-100%] h-screen bg-primaryBg'}>
 
             <nav>
                 <ul className='flex flex-col'>

@@ -1,6 +1,7 @@
 import React from "react";
 import Category from "./Category";
 import { categories } from "../categoriesArray/categories";
+import Modal from "../products/Modal";
 
 const CategoriesContainer = () => {
 
