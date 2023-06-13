@@ -1,7 +1,7 @@
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import Bricks from '../../assets/imgs/carrusel/bricks.jpg'
+import banner1 from '../../assets/banner1.png'
 import Iron from '../../assets/imgs/carrusel/ironbars.jpg'
 import Ceramic from '../../assets/imgs/carrusel/ceramicos.jpg'
 
@@ -14,15 +14,15 @@ export const EmblaCarousel = () => {
 
       <div className="embla__container">
         <div className="embla__slide">
-          <img className='' src={Bricks} alt="/" />
+          <img className='w-full h-full object-cover' src={banner1} alt="/" />
         </div>
 
         <div className="embla__slide">
-          <img className='' src={Ceramic} alt="/" />
+          <img className='w-full h-full object-cover' src={Ceramic} alt="/" />
         </div>
 
         <div className="embla__slide">
-          <img className='' src={Iron} alt="/" />
+          <img className='w-full h-full object-cover' src={Iron} alt="/" />
         </div>
 
       </div>

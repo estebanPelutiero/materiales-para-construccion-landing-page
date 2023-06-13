@@ -6,8 +6,7 @@ import CategoriesContainer from './components/categories/CategoriesContainer';
 import Location from './components/locations/Location';
 import Contact from './components/form/Contact';
 import Footer from './components/footer/Footer';
-// import Bolsas from './components/products/Bolsas';
-// import Ladrillos from './components/products/Ladrillos';
+
 
 
 function App() {
@@ -21,8 +20,6 @@ function App() {
       <Location />
       <Contact />
       <Footer />
-      {/* <Bolsas /> */}
-      {/* <Ladrillos /> */}
     </>
   )
 }
