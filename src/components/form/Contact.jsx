@@ -75,7 +75,7 @@ const Contact = () => {
             <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border bg-slate-200 outline-none" type="text" placeholder="E-mail" name="email"/>
             <textarea className="noResize w-[100%] lg:w-[70%] my-3 py-3 px-1 rounded border bg-slate-200 outline-none" placeholder="Tu mensaje" name="mesage"></textarea>
             <div className="flex justify-start lg:justify-center w-full">
-              <button className="lg:w-[70%] w-[35%] my-1 py-2 border rounded bg-orange-500 text-white font-semibold hover:bg-orange-600 ease-in-out duration-100">Enviar</button>
+              <button className="lg:w-[70%] w-[35%] my-1 py-2 border rounded bg-orange-400 text-white font-semibold hover:bg-orange-500 ease-in-out duration-100">Enviar</button>
             </div>
           </form>
         </div>  

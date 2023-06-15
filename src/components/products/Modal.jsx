@@ -7,7 +7,7 @@ const Modal = ({ open, onClose, children }) => {
 
     <div 
     onClick={onClose}
-    className={`fixed inset-1 mt-[96px] flex justify-center items-center rounded z-30 transition-colors ${open ? 'visible bg-black/90 overflow-scroll' : 'hidden'}`}
+    className={`fixed inset-1 mt-[96px] flex justify-center items-center rounded z-30 transition-colors ${open ? 'visible bg-black/80 overflow-y-scroll overflow-x-hidden' : 'hidden'}`}
     >
           {children}
       <button className='absolute p-3 top-0 right-0' onClick={onClose}><AiFillCloseCircle color='white' size={40} /></button>
