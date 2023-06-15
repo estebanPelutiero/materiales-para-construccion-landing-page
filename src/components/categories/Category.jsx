@@ -8,7 +8,7 @@ const Category = (props) => {
 
     return (
 
-      <div className='group flex flex-col justify-center items-center lg:h-[350px] lg:w-[380px] h-[300px] w-[340px] p-2 border shadow-lg rounded bg-slate-100/50'>
+      <div className='group flex flex-col justify-center items-center lg:h-[350px] lg:w-[380px] h-[300px] w-[340px] p-2 shadow-lg rounded bg-gray-500'>
   
         <div onClick={() => setOpen(true)} className='flex justify-center items-center h-[80%] w-full mb-1 overflow-hidden rounded cursor-pointer'>
           <img className='relative z-10 group group-hover:scale-[104%] group-hover:blur-[2px] duration-[400ms] h-full w-full' src={props.img} alt={props.name} />

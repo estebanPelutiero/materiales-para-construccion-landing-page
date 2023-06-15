@@ -80,9 +80,64 @@ export const obraGruesa = [
             description: "Por unidad",
             price: 18000
         },
+        {
+            id: 11,
+            category: "Pegamentos y pastinas",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686840134/hjr-landing/construkor_hxqstw.png',
+            title: "Construkor",
+            description: "Por 50 KG",
+            price: 18000
+        },
+        {
+            id: 12,
+            category: "Pegamentos y pastinas",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686840134/hjr-landing/mapeset_oxnrd2.png',
+            title: "Mapeset",
+            description: "Por 50 KG",
+            price: 18000
+        },
+        {
+            id: 13,
+            category: "Refractarios",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686840134/hjr-landing/refractario_d2ns1y.png',
+            title: "Ladrillo refractario",
+            description: "Por unidad",
+            price: 18000
+        },
+        {
+            id: 14,
+            category: "Aridos",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686840133/hjr-landing/bolson-arena_rkfddn.png',
+            title: "Bolsón de arena",
+            description: "Por m3",
+            price: 18000
+        },
+        {
+            id: 15,
+            category: "Bloques de hormigón",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686840133/hjr-landing/bloque-20_lrmn9w.png',
+            title: "Bloque de hormigón",
+            description: "Por unidad",
+            price: 18000
+        },
 
+        {
+            id: 16,
+            category: "Hierros",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1683728405/hjr-landing/barrasHierro_lgiwgl.jpg',
+            title: "Barras",
+            description: "De 3 a 10 m",
+            price: 18000
+        },
 
-
-        
+        {
+            id: 17,
+            category: "Viguetas",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1683728405/hjr-landing/barrasHierro_lgiwgl.jpg',
+            title: "Barras",
+            description: "De 3 a 10 m",
+            price: 18000
+        },
+  
 ]
 

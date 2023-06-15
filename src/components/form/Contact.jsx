@@ -8,8 +8,8 @@ const Contact = () => {
 
     <div id="contacto" className="w-full mx-auto h-fit mt-[5rem] ">
 
-      <div className="flex justify-center mb-10 w-[95%] mx-auto">
-        <div className="gradient font-cabin lg:text-3xl text-[22px] bg-orange-300 px-10 py-2 mb-10 rounded lg:w-[40%] w-[80%] text-center">
+      <div className="flex justify-center mb-10 mx-auto">
+        <div className="font-cabin lg:text-3xl text-[22px] bg-orange-400 px-6 py-2 mb-10 rounded lg:w-[40%] w-[80%] text-center">
           <h1>No dudes en comunicarte</h1>
         </div>
       </div>
@@ -20,12 +20,12 @@ const Contact = () => {
 
         <div className="flex flex-col justify-center items-center w-[80%] lg:w-[50%] mb-8">
 
-          <h1 className="font-cabin lg:text-3xl text-2xl bg-orange-300/90 px-3 py-2 mb-4 rounded lg:w-[70%] w-full text-center">Whatsapp</h1>
+          <h1 className="font-cabin lg:text-3xl text-2xl bg-orange-400/90 px-3 py-2 mb-4 rounded lg:w-[70%] w-full text-center">Whatsapp</h1>
 
           {/* walter */}
 
           <div className="lg:w-[70%] w-full font-cabin py-4">
-            <h2 className="px-5 py-1 bg-slate-300 rounded my-2 text-2xl w-full">Logística</h2>
+            <h2 className="px-5 py-1 bg-gray-500 text-white rounded my-2 text-2xl w-full">Logística</h2>
 
             <div className="flex items-center px-3 py-1 bg-slate-200 rounded text-lg w-fit">
               <p className="px-2">03489 - 325365</p>
@@ -38,7 +38,7 @@ const Contact = () => {
           {/* fernando  */}
 
           <div className="lg:w-[70%] w-full font-cabin py-4">
-            <h2 className="px-5 py-1 bg-slate-300 rounded my-2 text-2xl w-full">Ventas 1</h2>
+            <h2 className="px-5 py-1 bg-gray-500 text-white rounded my-2 text-2xl w-full">Ventas 1</h2>
 
             <div className="flex items-center px-3 py-1 bg-slate-200 rounded text-lg w-fit">
               <p className="px-2">03489 - 325365</p>
@@ -51,7 +51,7 @@ const Contact = () => {
           {/* raul */}
 
           <div className="lg:w-[70%] w-full font-cabin py-4">
-            <h2 className="px-5 py-1 bg-slate-300 rounded my-2 text-2xl w-full">Ventas 2</h2>
+            <h2 className="px-5 py-1 bg-gray-500 text-white rounded my-2 text-2xl w-full">Ventas 2</h2>
 
             <div className="flex items-center px-3 py-1 bg-slate-200 rounded text-lg w-fit">
               <p className="px-2">03489 - 325365</p>
@@ -68,14 +68,14 @@ const Contact = () => {
         <div className="flex justify-center lg:w-[50%] w-[80%] lg:mt-5 mt-10 mb-5">
           <form className="flex flex-col justify-between items-center w-full" action="">
 
-            <h1 className="font-cabin lg:text-3xl text-2xl text-center bg-orange-300/90 px-3 py-2 mb-4 rounded lg:w-[70%] w-full">O completa este formulario</h1>
+            <h1 className="font-cabin lg:text-3xl text-2xl text-center bg-orange-400/90 px-3 py-2 mb-4 rounded lg:w-[70%] w-full">O completa este formulario</h1>
 
-            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border" type="text" placeholder="Nombre completo" name="name"/>
-            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border" type="text" placeholder="Teléfono" name="celNumber"/>
-            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border" type="text" placeholder="E-mail" name="email"/>
-            <textarea className="noResize w-[100%] lg:w-[70%] my-3 py-3 px-1 rounded border" placeholder="Tu mensaje" name="mesage"></textarea>
+            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border bg-slate-200 outline-none" type="text" placeholder="Nombre completo" name="name"/>
+            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border bg-slate-200 outline-none" type="text" placeholder="Teléfono" name="celNumber"/>
+            <input className="w-[100%] lg:w-[70%] my-3 py-2 px-1 rounded border bg-slate-200 outline-none" type="text" placeholder="E-mail" name="email"/>
+            <textarea className="noResize w-[100%] lg:w-[70%] my-3 py-3 px-1 rounded border bg-slate-200 outline-none" placeholder="Tu mensaje" name="mesage"></textarea>
             <div className="flex justify-start lg:justify-center w-full">
-              <button className="lg:w-[70%] w-[35%] my-1 py-2 border rounded bg-slate-400 text-white font-semibold hover:bg-slate-500/90 ease-in-out duration-100">Enviar</button>
+              <button className="lg:w-[70%] w-[35%] my-1 py-2 border rounded bg-orange-500 text-white font-semibold hover:bg-orange-600 ease-in-out duration-100">Enviar</button>
             </div>
           </form>
         </div>  
