@@ -8,7 +8,6 @@ export const obraGruesa = [
             description: "Por 20 KG",
             price: 1200
         },
-
         {
             id: 2,
             category: "Bolsas",
@@ -17,7 +16,6 @@ export const obraGruesa = [
             description: "Por 50 KG",
             price: 2600
         },
-
         {
             id: 3,
             category: "Bolsas",
@@ -26,7 +24,6 @@ export const obraGruesa = [
             description: "Por 40 KG",
             price: 2600
         },
-
         {
             id: 4,
             category: "Ladrillos",
@@ -35,7 +32,6 @@ export const obraGruesa = [
             description: "6 Tubos",
             price: 18000
         },
-
         {
             id: 5,
             category: "Ladrillos",
@@ -44,7 +40,6 @@ export const obraGruesa = [
             description: "9 Tubos",
             price: 18000
         },
-
         {
             id: 6,
             category: "Ladrillos",
@@ -53,7 +48,6 @@ export const obraGruesa = [
             description: "12 Tubos",
             price: 18000
         },
-
         {
             id: 7,
             category: "Ladrillos",
@@ -62,7 +56,6 @@ export const obraGruesa = [
             description: "18 x 19 x 33",
             price: 18000
         },
-
         {
             id: 8,
             category: "Ladrillos",
@@ -71,7 +64,6 @@ export const obraGruesa = [
             description: "18 x 19 x 33",
             price: 18000
         },
-
         {
             id: 10,
             category: "Ladrillos",
@@ -91,7 +83,7 @@ export const obraGruesa = [
         {
             id: 12,
             category: "Pegamentos y pastinas",
-            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686840134/hjr-landing/mapeset_oxnrd2.png',
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686850824/hjr-landing/mapeset_cmcszq.png',
             title: "Mapeset",
             description: "Por 50 KG",
             price: 18000
@@ -120,24 +112,29 @@ export const obraGruesa = [
             description: "Por unidad",
             price: 18000
         },
-
         {
             id: 16,
             category: "Hierros",
-            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1683728405/hjr-landing/barrasHierro_lgiwgl.jpg',
-            title: "Barras",
-            description: "De 3 a 10 m",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1683569519/hjr-landing/barra_de_hierro-removebg-preview_ee2orr.png',
+            title: "Varillas de hierro",
+            description: "4, 6, 8, 10 mm",
             price: 18000
         },
-
         {
             id: 17,
             category: "Viguetas",
-            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1683728405/hjr-landing/barrasHierro_lgiwgl.jpg',
-            title: "Barras",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686850973/hjr-landing/vigueta_oi9os9.png',
+            title: "Vigueta Pretensada",
             description: "De 3 a 10 m",
             price: 18000
         },
-  
+        {
+            id: 18,
+            category: "Telgopor",
+            img: 'https://res.cloudinary.com/dn6w1lstv/image/upload/v1686851291/hjr-landing/telgopor_fjbuby.png',
+            title: "Ladrillo telgopor",
+            description: "De 10, 12 y 14 cm",
+            price: 18000
+        },
 ]
 

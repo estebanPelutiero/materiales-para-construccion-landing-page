@@ -6,7 +6,7 @@ const Product = (props) => {
     <div className='group flex flex-col items-center h-[300px] w-[250px] p-2 border shadow-lg rounded bg-slate-100/50'>
 
       <div className='flex justify-center items-center h-[60%] w-[70%] my-2 border-b border-b-gray-300'>
-        <img className='w-[120px]' src={props.img} alt={props.title} />
+        <img className='w-[75%]' src={props.img} alt={props.title} />
       </div>
 
       <div className='flex flex-col items-center justify-evenly h-[40%] w-[100%] font-cabin'>
